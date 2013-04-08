@@ -1,0 +1,9 @@
+<%= form_for [@list, @task] do |form| %>
+
+	<label>Description:
+		<p><%= form.text_field :description %></p>
+	</label>
+
+	<p><%= form.submit %></p>
+
+<% end %>
